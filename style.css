@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, #main {
+    float: left;
+}
+
+ul li img {
+    display: block;
+    width: 30%;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+#main img { 
+    width: 50%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+ul {
+    width: 30%;
+    height: 100vh;
+}
+
+#main {
+    width: 70%;
+}
